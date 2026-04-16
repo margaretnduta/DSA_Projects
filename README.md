@@ -1,45 +1,58 @@
-📊 Data Science & Analysis Portfolio
+# 📊 Data Science & Analysis Portfolio
 
-Welcome to my Data Science portfolio! This repository contains a collection of data analysis projects built using Python, pandas, NumPy, and Matplotlib inside Jupyter Notebooks.
+A collection of data analysis projects built with Python, exploring real-world datasets through cleaning, exploratory analysis, and visual storytelling — all inside Jupyter Notebooks.
 
-My focus is on taking raw data, cleaning it, performing exploratory data analysis (EDA), and creating clear visual narratives.
+---
 
-🛠️ Tools & Technologies Used
+## 🛠️ Tech Stack
 
-Python * pandas (Data manipulation, cleaning, and aggregation)
+**Language:** Python  
+**Libraries:** pandas · NumPy · Matplotlib  
+**Environment:** Jupyter Notebook
 
-NumPy (Numerical computing and array operations)
+---
 
-Matplotlib (Data visualization)
+## 📁 Projects
 
-Jupyter Notebook
+### 1. Streaming Platform Catalog Analysis
 
-📁 Project Directory
+**Notebook:** `pdproject1.ipynb`
 
-1. Streaming Platform Catalog Analysis
+**Objective:** Analyze a dataset of streaming content to uncover the distribution of Movies vs. TV Shows, compare catalog sizes across Netflix, Hulu, Prime Video, and Disney+, and identify the most popular release years.
 
-File: pdproject1.ipynb
+**What I Did:**
+- Cleaned the dataset by handling missing values and dropping irrelevant columns
+- Grouped and aggregated data using `.value_counts()` and `.sum()` with method chaining
+- Designed multi-panel subplot layouts combining pie charts and horizontal bar charts
 
-Objective: To analyze a dataset of streaming content to determine the distribution of Movies vs. TV Shows, identify which platforms (Netflix, Hulu, Prime Video, Disney+) host the most content, and discover the most popular release years.
+---
 
-Key Skills Demonstrated:
+## 📈 Key Visualizations & Insights
 
-Handling missing values (NaN) and dropping unnecessary columns.
+![Movie vs TV Breakdown](images/movie_tv_breakdown.png)
 
-Method chaining and grouping data using .value_counts() and .sum().
+![Platform Volume Subplot](images/platform_volume_subplot.png)
 
-Designing customized subplots combining Pie and Horizontal Bar charts.
+---
 
-📈 Key Visualizations & Insights:
+## 🚀 How to Run
 
-Insight 1: Top Platforms by Volume
+```bash
+# Clone the repository
+git clone https://github.com/margaretnduta/DSA_Projects.git
 
-The horizontal bar chart and pie chart subplots reveal the exact distribution of titles across the major streaming platforms. This highlights which service currently holds the largest library of total titles for consumers.
+# Navigate into the project
+cd DSA_Projects
 
-Insight 2: Content Breakdown
+# Install dependencies
+pip install pandas numpy matplotlib jupyter
 
-The analysis of the catalog shows the historical volume of releases and the overall distribution of Movies versus TV Shows across the dataset.
+# Launch Jupyter
+jupyter notebook
+```
 
-📬 Let's Connect
+---
 
-LinkedIn: Margaret Wambui
+## 📬 Let's Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Margaret%20Wambui-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/margaretwambui12/)
